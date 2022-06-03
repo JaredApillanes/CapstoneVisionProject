@@ -1,6 +1,9 @@
 # df.py - implements phase two of the pipeline as a differentiable renderer
 # Usage:
-#   provide the target image "target.exr" in a subdirectory called "results" and run the file
+#   provide the target image "target.exr" in a subdirectory called "results"
+#	provide the interpreted object as "shoe_tread.obj" and set the
+#	grid dimensions GRID_X and GRID_Y
+
 import pyredner
 import torch
 
